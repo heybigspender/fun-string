@@ -40,5 +40,6 @@ class Particle {
     display();  
     totalForce.mult(0);
     acceleration.mult(0);
+    velocity.mult(0.99);
   }
 }
